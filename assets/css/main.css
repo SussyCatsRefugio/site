@@ -17,11 +17,6 @@
   --nav-font: "Jost",  sans-serif;
 }
 
-@font-face {
-      font-family: 'sussycats';
-      src: url('/fonts/VisbyRoundCF-RegularOblique.otf') format('otf')
-    }
-
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -68,7 +63,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: sussycats;
+  font-family: var(--default-font);
 }
 
 a {
